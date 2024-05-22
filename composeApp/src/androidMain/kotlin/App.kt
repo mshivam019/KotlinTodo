@@ -16,23 +16,5 @@ val darkRedColor = Color(color = 0xFFF7700B)
 @Composable
 @Preview
 fun App() {
-    val lightColors = lightColorScheme(
-        primary= lightRedColor,
-        onPrimary = darkRedColor,
-        primaryContainer = lightRedColor,
-        onPrimaryContainer = darkRedColor
-    )
-    val darkColors = darkColorScheme(
-        primary = lightRedColor,
-        onPrimary = darkRedColor,
-        primaryContainer = lightRedColor,
-        onPrimaryContainer = darkRedColor
-    )
-    val colors by mutableStateOf(
-        if(isSystemInDarkTheme()) darkColors else lightColors
-    )
-    MaterialTheme(colorScheme =  colors) {
-
-
-    }
+    
 }
