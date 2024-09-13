@@ -1,3 +1,5 @@
+package com.mshivam019.kmm
+
 class Greeting {
     private val platform = getPlatform()
 
